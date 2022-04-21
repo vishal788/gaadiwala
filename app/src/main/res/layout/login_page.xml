@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#059F80"
+    tools:context=".Login_Page">
+
+
+    <LinearLayout
+        android:id="@+id/linear_log1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_margin="20sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Use Gaadiwalaonline in English"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="25sp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gaardiwala_logo"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_log2"
+        android:layout_below="@+id/linear_log1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login or Create new account"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12sp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter mobile number"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12sp"
+            android:layout_gravity="center"
+            />
+
+
+        <EditText
+            android:id="@+id/mobile_no_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="+91"/>
+
+
+
+
+        <RelativeLayout
+            android:layout_below="@+id/mobile_no_enter"
+            android:layout_width="match_parent"
+            android:gravity="end"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:text="Forgot Password Login issue?"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="125sp"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/proceed_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proceed securely"
+            android:background="@color/buttoncolor"
+            android:letterSpacing="0.1"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="125sp"
+            android:layout_height="20sp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By priceeding you agree to terms and condition and Privacy standard operator charges may apply for sms."/>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>
